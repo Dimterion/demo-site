@@ -7,6 +7,9 @@ const Header = () => {
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img src={headerLogo} width={190} height={40} alt="Header logo" />
         </a>
+        <nav className="fixed bottom-0 left-0 top-[5rem] hidden bg-n-8 ring-0 lg:static lg:mx-auto lg:flex lg:bg-transparent">
+          <div className="relative z-2 m-auto flex flex-col items-center justify-center lg:flex-row"></div>
+        </nav>
       </div>
     </div>
   );
