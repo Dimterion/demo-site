@@ -2,12 +2,13 @@ import { useLocation } from "react-router-dom";
 
 import headerLogo from "../assets/headerLogo.png";
 import { navigation } from "../constants";
+import Button from "./Button";
 
 const Header = () => {
   const pathname = useLocation();
 
   return (
-    <div className="fixed top-0 z-50 border-b border-n-6 bg-n-8/90 backdrop-blur-sm lg:bg-n-8/90 lg:backdrop-blur-sm">
+    <div className="fixed left-0 top-0 z-50 w-full border-b border-n-6 bg-n-8/90 backdrop-blur-sm lg:bg-n-8/90 lg:backdrop-blur-sm">
       <div className="flex items-center px-5 max-lg:py-4 lg:px-7.5 xl:px-10">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img src={headerLogo} width={50} height={20} alt="Header logo" />
@@ -25,6 +26,15 @@ const Header = () => {
             ))}
           </div>
         </nav>
+        <a
+          href="#signup"
+          className="button mr-8 hidden text-n-1/50 transition-colors hover:text-n-1 lg:block"
+        >
+          New account
+        </a>
+        <Button className="hidden lg:flex" href="#login">
+          Sign in
+        </Button>
       </div>
     </div>
   );
