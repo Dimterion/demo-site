@@ -33,10 +33,10 @@ const Section = ({
 Section.propTypes = {
   className: PropTypes.string,
   id: PropTypes.string,
-  crosses: PropTypes.string,
+  crosses: PropTypes.bool,
   crossesOffset: PropTypes.string,
-  customPaddings: PropTypes.string,
-  children: PropTypes.string,
+  customPaddings: PropTypes.bool,
+  children: PropTypes.object,
 };
 
 export default Section;
