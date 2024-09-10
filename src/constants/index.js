@@ -1,39 +1,7 @@
-// import {
-//   benefitIcon1,
-//   benefitIcon2,
-//   benefitIcon3,
-//   benefitIcon4,
-//   benefitImage2,
-//   chromecast,
-//   disc02,
-//   discord,
-//   discordBlack,
-//   facebook,
-//   figma,
-//   file02,
-//   framer,
-//   homeSmile,
-//   instagram,
-//   notification2,
-//   notification3,
-//   notification4,
-//   notion,
-//   photoshop,
-//   plusSquare,
-//   protopie,
-//   raindrop,
-//   recording01,
-//   recording03,
-//   roadmap1,
-//   roadmap2,
-//   roadmap3,
-//   roadmap4,
-//   searchMd,
-//   slack,
-//   sliders04,
-//   twitter,
-//   yourlogo,
-// } from "../assets";
+import file02 from "../assets/file-02.svg";
+import homeSmile from "../assets/home-Smile.svg";
+import plusSquare from "../assets/plus-Square.svg";
+import searchMd from "../assets/search-md.svg";
 
 export const navigation = [
   {
@@ -70,7 +38,7 @@ export const navigation = [
   },
 ];
 
-// export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 // export const notificationImages = [notification4, notification3, notification2];
 
