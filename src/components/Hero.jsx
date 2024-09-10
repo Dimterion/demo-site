@@ -6,6 +6,7 @@ import curve from "../assets/hero/curve.png";
 import robot from "../assets/hero/robot.jpg";
 import Button from "./Button";
 import Section from "./Section";
+import Generating from "./Generating";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 
@@ -55,6 +56,7 @@ const Hero = () => {
                   height={490}
                   alt="Robot"
                 />
+                <Generating className="absolute bottom-5 left-4 right-4 md:bottom-8 md:left-1/2 md:right-auto md:w-[31rem] md:-translate-x-1/2" />
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="absolute -left-[5.5rem] bottom-[7.5rem] hidden rounded-2xl border border-n-1/10 bg-n-9/40 px-1 py-1 backdrop-blur xl:flex">
                     {heroIcons.map((icon, index) => (

@@ -36,7 +36,7 @@ Section.propTypes = {
   crosses: PropTypes.bool,
   crossesOffset: PropTypes.string,
   customPaddings: PropTypes.bool,
-  children: PropTypes.object,
+  children: PropTypes.array,
 };
 
 export default Section;
