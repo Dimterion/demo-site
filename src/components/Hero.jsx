@@ -6,7 +6,7 @@ import curve from "../assets/hero/curve.png";
 import robot from "../assets/hero/robot.jpg";
 import Button from "./Button";
 import Section from "./Section";
-import { BackgroundCircles, Gradient } from "./design/Hero";
+import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 
 const Hero = () => {
@@ -80,6 +80,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
       </div>
+      <BottomLine />
     </Section>
   );
 };
