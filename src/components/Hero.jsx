@@ -7,6 +7,7 @@ import robot from "../assets/hero/robot.jpg";
 import Button from "./Button";
 import Section from "./Section";
 import Generating from "./Generating";
+import Notification from "../components/Notification";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 
@@ -65,6 +66,12 @@ const Hero = () => {
                       </li>
                     ))}
                   </ul>
+                </ScrollParallax>
+                <ScrollParallax isAbsolutelyPositioned>
+                  <Notification
+                    className="absolute -right-[5.5rem] bottom-[11rem] hidden w-[18rem] xl:flex"
+                    title="Generation"
+                  />
                 </ScrollParallax>
               </div>
             </div>

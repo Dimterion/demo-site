@@ -2,6 +2,9 @@ import file02 from "../assets/file-02.svg";
 import homeSmile from "../assets/home-Smile.svg";
 import plusSquare from "../assets/plus-Square.svg";
 import searchMd from "../assets/search-md.svg";
+import notification2 from "../assets/notification/notification2.png";
+import notification3 from "../assets/notification/notification3.png";
+import notification4 from "../assets/notification/notification4.png";
 
 export const navigation = [
   {
@@ -40,7 +43,7 @@ export const navigation = [
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-// export const notificationImages = [notification4, notification3, notification2];
+export const notificationImages = [notification2, notification3, notification4];
 
 // export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
