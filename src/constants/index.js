@@ -5,6 +5,7 @@ import searchMd from "../assets/search-md.svg";
 import notification2 from "../assets/notification/notification2.png";
 import notification3 from "../assets/notification/notification3.png";
 import notification4 from "../assets/notification/notification4.png";
+import logo from "../assets/logo.svg";
 
 export const navigation = [
   {
@@ -45,7 +46,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification2, notification3, notification4];
 
-// export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const logos = [logo, logo, logo, logo, logo];
 
 // export const dsServices = ["Generate", "Enhance", "Integrate"];
 
