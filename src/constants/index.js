@@ -208,58 +208,51 @@ export const logos = [logo, logo, logo, logo, logo];
 //   },
 // ];
 
-// export const benefits = [
-//   {
-//     id: "0",
-//     title: "Ask",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//     backgroundUrl: "./src/assets/benefits/card-1.svg",
-//     iconUrl: benefitIcon1,
-//     imageUrl: benefitImage2,
-//   },
-//   {
-//     id: "1",
-//     title: "Improve",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//     backgroundUrl: "./src/assets/benefits/card-2.svg",
-//     iconUrl: benefitIcon2,
-//     imageUrl: benefitImage2,
-//     light: true,
-//   },
-//   {
-//     id: "2",
-//     title: "Connect",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//     backgroundUrl: "./src/assets/benefits/card-3.svg",
-//     iconUrl: benefitIcon3,
-//     imageUrl: benefitImage2,
-//   },
-//   {
-//     id: "3",
-//     title: "Responding",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//     backgroundUrl: "./src/assets/benefits/card-4.svg",
-//     iconUrl: benefitIcon4,
-//     imageUrl: benefitImage2,
-//     light: true,
-//   },
-//   {
-//     id: "4",
-//     title: "Ask",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//     backgroundUrl: "./src/assets/benefits/card-5.svg",
-//     iconUrl: benefitIcon1,
-//     imageUrl: benefitImage2,
-//   },
-//   {
-//     id: "5",
-//     title: "Improve",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//     backgroundUrl: "./src/assets/benefits/card-6.svg",
-//     iconUrl: benefitIcon2,
-//     imageUrl: benefitImage2,
-//   },
-// ];
+export const features = [
+  {
+    id: "0",
+    title: "Ask",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    backgroundUrl: "./src/assets/backgroundImg.jpg",
+    iconUrl: logo,
+    imageUrl: logo,
+  },
+  {
+    id: "1",
+    title: "Improve",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    backgroundUrl: "./src/assets/backgroundImg.jpg",
+
+    iconUrl: logo,
+    imageUrl: logo,
+    light: true,
+  },
+  {
+    id: "2",
+    title: "Connect",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    backgroundUrl: "./src/assets/backgroundImg.jpg",
+    iconUrl: logo,
+    imageUrl: logo,
+  },
+  {
+    id: "3",
+    title: "Responding",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    backgroundUrl: "./src/assets/backgroundImg.jpg",
+    iconUrl: logo,
+    imageUrl: logo,
+    light: true,
+  },
+  {
+    id: "4",
+    title: "Ask",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    backgroundUrl: "./src/assets/backgroundImg.jpg",
+    iconUrl: logo,
+    imageUrl: logo,
+  },
+];
 
 // export const socials = [
 //   {
