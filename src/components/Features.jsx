@@ -1,6 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import Arrow from "../assets/svg/Arrow";
+import ClipPath from "../assets/svg/ClipPath";
 import { GradientLight } from "./design/Features";
 import { features } from "../constants";
 
@@ -22,7 +23,7 @@ const Features = () => {
               key={item.id}
             >
               <div className="mih-h-[22rem] pointer-events-none relative z-2 flex flex-col p-[2.4rem]">
-                <h5 className="h2 mb-5">{item.title}</h5>
+                <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="mt-auto flex items-center">
                   <img
@@ -38,6 +39,23 @@ const Features = () => {
                 </div>
               </div>
               {item.light && <GradientLight />}
+              <div
+                className="absolute inset-0.5 bg-n-8"
+                style={{ clipPath: "url(#benefits)" }}
+              >
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                  {item.imageUrl && (
+                    <img
+                      src={item.imageUrl}
+                      width={380}
+                      height={362}
+                      alt={item.title}
+                      className="h-full w-full object-cover"
+                    />
+                  )}
+                </div>
+              </div>
+              <ClipPath />
             </div>
           ))}
         </div>
