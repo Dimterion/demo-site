@@ -1,6 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import Arrow from "../assets/svg/Arrow";
+import { GradientLight } from "./design/Features";
 import { features } from "../constants";
 
 const Features = () => {
@@ -30,10 +31,13 @@ const Features = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p>Explore more</p>
+                  <p className="ml-auto font-code text-xs font-bold uppercase tracking-wide text-n-1">
+                    Explore more
+                  </p>
                   <Arrow />
                 </div>
               </div>
+              {item.light && <GradientLight />}
             </div>
           ))}
         </div>
