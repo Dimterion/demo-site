@@ -222,7 +222,6 @@ export const features = [
     title: "Improve",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     backgroundUrl: "./src/assets/backgroundImg.jpg",
-
     iconUrl: logo,
     imageUrl: logo,
     light: true,
@@ -251,6 +250,15 @@ export const features = [
     backgroundUrl: "./src/assets/backgroundImg.jpg",
     iconUrl: logo,
     imageUrl: logo,
+  },
+  {
+    id: "5",
+    title: "Improve",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    backgroundUrl: "./src/assets/backgroundImg.jpg",
+    iconUrl: logo,
+    imageUrl: logo,
+    light: true,
   },
 ];
 

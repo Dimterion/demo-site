@@ -1,5 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
+import Arrow from "../assets/svg/Arrow";
 import { features } from "../constants";
 
 const Features = () => {
@@ -29,6 +30,8 @@ const Features = () => {
                     height={48}
                     alt={item.title}
                   />
+                  <p>Explore more</p>
+                  <Arrow />
                 </div>
               </div>
             </div>
