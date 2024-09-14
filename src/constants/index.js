@@ -94,24 +94,24 @@ export const logos = [logo, logo, logo, logo, logo];
 //   },
 // ];
 
-// export const collabText =
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.";
+export const collabText =
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.";
 
-// export const collabContent = [
-//   {
-//     id: "0",
-//     title: "Integration",
-//     text: collabText,
-//   },
-//   {
-//     id: "1",
-//     title: "Automation",
-//   },
-//   {
-//     id: "2",
-//     title: "Security",
-//   },
-// ];
+export const collabContent = [
+  {
+    id: "0",
+    title: "Integration",
+    text: collabText,
+  },
+  {
+    id: "1",
+    title: "Automation",
+  },
+  {
+    id: "2",
+    title: "Security",
+  },
+];
 
 // export const collabApps = [
 //   {
