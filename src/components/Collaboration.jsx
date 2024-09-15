@@ -3,6 +3,7 @@ import { collabApps, collabContent, collabText } from "../constants";
 import headerLogo from "../assets/headerLogo.png";
 import Section from "./Section";
 import Button from "./Button";
+import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
@@ -26,7 +27,7 @@ const Collaboration = () => {
           <Button>Try it now</Button>
         </div>
         <div className="mt-4 lg:ml-auto xl:w-[38rem]">
-          <p className="body-2 mb-4 text-n-4 md:mb-16 lg:mx-auto lg:mb-32 lg:w-[22rem]">
+          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mx-auto lg:mb-32 lg:w-[22rem]">
             {collabText}
           </p>
           <div className="relative left-1/2 flex aspect-square w-[22rem] -translate-x-1/2 scale-75 rounded-full border border-n-6 md:scale-100">
@@ -62,6 +63,8 @@ const Collaboration = () => {
                 </li>
               ))}
             </ul>
+            <LeftCurve />
+            <RightCurve />
           </div>
         </div>
       </div>
