@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Collaboration from "./components/Collaboration";
 import ButtonGradient from "./assets/svg/ButtonGradient";
+import Services from "./components/Services";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Hero />
         <Features />
         <Collaboration />
+        <Services />
       </div>
       <ButtonGradient />
     </>
