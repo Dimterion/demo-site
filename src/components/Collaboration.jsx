@@ -1,5 +1,5 @@
 import { FaCheckCircle } from "react-icons/fa";
-import { collabContent, collabText } from "../constants";
+import { collabApps, collabContent, collabText } from "../constants";
 import headerLogo from "../assets/headerLogo.png";
 import Section from "./Section";
 import Button from "./Button";
@@ -42,6 +42,26 @@ const Collaboration = () => {
                 </div>
               </div>
             </div>
+            <ul>
+              {collabApps.map((app, index) => (
+                <li
+                  key={app.id}
+                  className={`absolute left-1/2 top-0 -ml-[1.6rem] h-1/2 origin-bottom rotate-${index * 45}`}
+                >
+                  <div
+                    className={`relative -top-[1.6rem] flex h-[3.2rem] w-[3.2rem] rounded-xl border border-n-1/15 bg-n-7 -rotate-${index * 45}`}
+                  >
+                    <img
+                      className="m-auto"
+                      width={app.width}
+                      height={app.height}
+                      alt={app.title}
+                      src={app.icon}
+                    />
+                  </div>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
