@@ -7,7 +7,7 @@ import { FaCheckCircle } from "react-icons/fa";
 const Services = () => {
   return (
     <Section id="how-to-use">
-      <div className="contaner">
+      <div className="container">
         <Heading
           title="Lorem title example"
           text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, quidem est minus eveniet illum ipsam ab quibusdam reiciendis iure ex."
@@ -24,13 +24,18 @@ const Services = () => {
               />
             </div>
             <div className="relative z-1 ml-auto max-w-[17rem]">
-              <h4 className="h-4 mb-4">Lorem text</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+              <h4 className="h4 mb-4">Lorem text</h4>
+              <p className="body-2 mb-[3rem] text-n-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+              </p>
               <ul className="body-2">
                 {dsServices.map((item, index) => (
-                  <li key={index}>
+                  <li
+                    key={index}
+                    className="flex items-start border-t border-n-6 py-4"
+                  >
                     <FaCheckCircle className="size-6 text-purple-500" />
-                    <p>{item}</p>
+                    <p className="ml-4">{item}</p>
                   </li>
                 ))}
               </ul>
