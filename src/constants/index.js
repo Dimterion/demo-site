@@ -56,7 +56,7 @@ export const notificationImages = [notification2, notification3, notification4];
 
 export const logos = [logo, logo, logo, logo, logo];
 
-// export const dsServices = ["Generate", "Enhance", "Integrate"];
+export const dsServices = ["Generate", "Enhance", "Integrate"];
 
 // export const dsServicesIcons = [
 //   recording03,
