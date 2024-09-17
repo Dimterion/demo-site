@@ -4,6 +4,7 @@ import Generating from "./Generating";
 import backgroundImage from "../assets/backgroundImg.jpg";
 import { dsServices } from "../constants";
 import { FaCheckCircle } from "react-icons/fa";
+import { PhotoChatMessage } from "./design/Services";
 
 const Services = () => {
   return (
@@ -60,6 +61,7 @@ const Services = () => {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
                 </p>
               </div>
+              <PhotoChatMessage />
             </div>
           </div>
         </div>
