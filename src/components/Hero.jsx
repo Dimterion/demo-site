@@ -28,7 +28,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Explore the Possibilities{" "}
             <span className="relative inline-block">
-              Demo{" "}
+              Demo
               <img
                 src={curve}
                 className="absolute left-0 top-full w-full xl:-mt-2"

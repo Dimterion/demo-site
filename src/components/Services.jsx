@@ -28,7 +28,7 @@ const Services = () => {
             <div className="relative z-1 ml-auto max-w-[17rem]">
               <h4 className="h4 mb-4">Lorem text</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
               <ul className="body-2">
                 {dsServices.map((item, index) => (
@@ -58,10 +58,19 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-n-8/0 to-n-8/90 p-8 lg:p-15">
                 <h4 className="h4 mb-4">Lorem text</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
               </div>
               <PhotoChatMessage />
+            </div>
+            <div className="lg:m-h-[46rem] overflow-hidden rounded-3xl bg-n-7 p-4">
+              <div className="px-4 py-12 xl:px-8">
+                <h4 className="h4 mb-4">Generation</h4>
+                <p className="body-2 mb-[2rem] text-n-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <ul className="flex items-center justify-between"></ul>
+              </div>
             </div>
           </div>
         </div>
