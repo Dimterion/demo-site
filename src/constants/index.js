@@ -58,14 +58,6 @@ export const logos = [logo, logo, logo, logo, logo];
 
 export const dsServices = ["Generate", "Enhance", "Integrate"];
 
-// export const dsServicesIcons = [
-//   recording03,
-//   recording01,
-//   disc02,
-//   chromecast,
-//   sliders04,
-// ];
-
 // export const roadmap = [
 //   {
 //     id: "0",

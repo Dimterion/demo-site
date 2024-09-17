@@ -1,3 +1,8 @@
+import { IoIosRecording } from "react-icons/io";
+import { BiVideoRecording } from "react-icons/bi";
+import { IoDisc } from "react-icons/io5";
+import { FaChromecast } from "react-icons/fa";
+import { FaSlidersH } from "react-icons/fa";
 import Section from "./Section";
 import Heading from "./Heading";
 import Generating from "./Generating";
@@ -7,6 +12,14 @@ import { FaCheckCircle } from "react-icons/fa";
 import { PhotoChatMessage } from "./design/Services";
 
 const Services = () => {
+  const dsServicesIcons = [
+    <IoIosRecording key="recording" />,
+    <BiVideoRecording key="videoRecording" />,
+    <IoDisc key="disc" />,
+    <FaChromecast key="chromecast" />,
+    <FaSlidersH key="sliders" />,
+  ];
+
   return (
     <Section id="how-to-use">
       <div className="container">
@@ -69,7 +82,16 @@ const Services = () => {
                 <p className="body-2 mb-[2rem] text-n-3">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
-                <ul className="flex items-center justify-between"></ul>
+                <ul className="flex items-center justify-between">
+                  {dsServicesIcons.map((item, index) => (
+                    <li
+                      key={index}
+                      className={`flex items-center justify-center rounded-2xl ${index === 2 ? "p-0.3 h-[3rem] w-[3rem] bg-conic-gradient md:h-[4.5rem] md:w-[4.5rem]" : "flex h-10 w-10 bg-n-6 md:h-15 md:w-15"}`}
+                    >
+                      <div>{item}</div>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>
