@@ -9,7 +9,12 @@ import Generating from "./Generating";
 import backgroundImage from "../assets/backgroundImg.jpg";
 import { dsServices } from "../constants";
 import { FaCheckCircle } from "react-icons/fa";
-import { PhotoChatMessage } from "./design/Services";
+import {
+  Gradient,
+  PhotoChatMessage,
+  VideoBar,
+  VideoChatMessage,
+} from "./design/Services";
 
 const Services = () => {
   const dsServicesIcons = [
@@ -101,8 +106,20 @@ const Services = () => {
                   ))}
                 </ul>
               </div>
+              <div className="relative h-[20rem] overflow-hidden rounded-xl bg-n-8 md:h-[25rem]">
+                <img
+                  alt="Background image"
+                  src={backgroundImage}
+                  className="h-full w-full object-cover"
+                  width={520}
+                  height={400}
+                />
+                <VideoChatMessage />
+                <VideoBar />
+              </div>
             </div>
           </div>
+          <Gradient />
         </div>
       </div>
     </Section>
