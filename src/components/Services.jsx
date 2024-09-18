@@ -13,11 +13,11 @@ import { PhotoChatMessage } from "./design/Services";
 
 const Services = () => {
   const dsServicesIcons = [
-    <IoIosRecording key="recording" />,
-    <BiVideoRecording key="videoRecording" />,
-    <IoDisc key="disc" />,
-    <FaChromecast key="chromecast" />,
-    <FaSlidersH key="sliders" />,
+    <IoIosRecording className="text-2xl" key="recording" />,
+    <BiVideoRecording className="text-2xl" key="videoRecording" />,
+    <IoDisc className="text-2xl" key="disc" />,
+    <FaChromecast className="text-2xl" key="chromecast" />,
+    <FaSlidersH className="text-2xl" key="sliders" />,
   ];
 
   return (
@@ -86,9 +86,17 @@ const Services = () => {
                   {dsServicesIcons.map((item, index) => (
                     <li
                       key={index}
-                      className={`flex items-center justify-center rounded-2xl ${index === 2 ? "p-0.3 h-[3rem] w-[3rem] bg-conic-gradient md:h-[4.5rem] md:w-[4.5rem]" : "flex h-10 w-10 bg-n-6 md:h-15 md:w-15"}`}
+                      className={`flex items-center justify-center rounded-2xl ${index === 2 ? "h-[3rem] w-[3rem] bg-conic-gradient p-0.25 md:h-[4.5rem] md:w-[4.5rem]" : "flex h-10 w-10 bg-n-6 md:h-15 md:w-15"}`}
                     >
-                      <div>{item}</div>
+                      <div
+                        className={
+                          index === 2
+                            ? "flex h-full w-full items-center justify-center rounded-[1rem] bg-n-7"
+                            : ""
+                        }
+                      >
+                        {item}
+                      </div>
                     </li>
                   ))}
                 </ul>
