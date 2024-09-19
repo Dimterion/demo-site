@@ -1,7 +1,9 @@
 import Section from "./Section";
 import Heading from "./Heading";
+import PricingList from "./PricingList";
 import sectionImg from "../assets/sectionImg.jpg";
 import { BackgroundCircles } from "./design/Hero";
+import { LeftLine, RightLine } from "./design/Pricing";
 
 const Pricing = () => {
   return (
@@ -20,6 +22,11 @@ const Pricing = () => {
           </div>
         </div>
         <Heading tag="Get started" title="Lorem text example." />
+        <div className="relative">
+          <PricingList />
+          <LeftLine />
+          <RightLine />
+        </div>
       </div>
     </Section>
   );
