@@ -8,15 +8,19 @@ const PricingList = () => {
       {pricing.map((item) => (
         <div
           key={item.id}
-          className="h-full w-[19rem] rounded-[2rem] border border-n-6 bg-n-8 px-6 odd:py-8 even:py-14 max-lg:w-full lg:w-auto"
+          className="h-full w-[19rem] rounded-[2rem] border border-n-6 bg-n-8 px-6 odd:my-4 odd:py-8 even:py-14 max-lg:w-full lg:w-auto [&>h4]:first:text-color-2 [&>h4]:last:text-color-3 [&>h4]:even:text-color-1"
         >
           <h4 className="h4 mb-4">{item.title}</h4>
-          <p>{item.description}</p>
-          <div>
+          <p className="body-2 mb-3 min-h-[4rem] text-n-1/50">
+            {item.description}
+          </p>
+          <div className="mb-6 flex h-[5.5rem] items-center">
             {item.price && (
               <>
-                <div>$</div>
-                <div>{item.price}</div>
+                <div className="h3">$</div>
+                <div className="text-[5.5rem] font-bold leading-none">
+                  {item.price}
+                </div>
               </>
             )}
           </div>
@@ -29,8 +33,12 @@ const PricingList = () => {
           </Button>
           <ul>
             {item.features.map((feature, index) => (
-              <li key={index}>
+              <li
+                key={index}
+                className="flex items-start border-t border-n-6 py-5"
+              >
                 <FaCheckCircle className="size-6 text-purple-500" />
+                <p className="body-2 ml-4">{feature}</p>
               </li>
             ))}
           </ul>
