@@ -172,41 +172,41 @@ export const collabApps = [
   },
 ];
 
-// export const pricing = [
-//   {
-//     id: "0",
-//     title: "Basic",
-//     description: "Recommendations",
-//     price: "0",
-//     features: [
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//     ],
-//   },
-//   {
-//     id: "1",
-//     title: "Premium",
-//     description: "Advanced",
-//     price: "9.99",
-//     features: [
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//     ],
-//   },
-//   {
-//     id: "2",
-//     title: "Enterprise",
-//     description: "Dedicated",
-//     price: null,
-//     features: [
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//     ],
-//   },
-// ];
+export const pricing = [
+  {
+    id: "0",
+    title: "Basic",
+    description: "Recommendations",
+    price: "0",
+    features: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+    ],
+  },
+  {
+    id: "1",
+    title: "Premium",
+    description: "Advanced",
+    price: "9.99",
+    features: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+    ],
+  },
+  {
+    id: "2",
+    title: "Enterprise",
+    description: "Dedicated",
+    price: null,
+    features: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+    ],
+  },
+];
 
 export const features = [
   {
