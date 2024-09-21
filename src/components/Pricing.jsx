@@ -27,6 +27,14 @@ const Pricing = () => {
           <LeftLine />
           <RightLine />
         </div>
+        <div className="mt-10 flex justify-center">
+          <a
+            className="border-b font-code text-xs font-bold uppercase tracking-wide"
+            href="/pricing"
+          >
+            See details
+          </a>
+        </div>
       </div>
     </Section>
   );
