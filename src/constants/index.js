@@ -14,6 +14,7 @@ import photoshop from "../assets/collaboration/photoshop.png";
 import protopie from "../assets/collaboration/protopie.png";
 import framer from "../assets/collaboration/framer.png";
 import raindrop from "../assets/collaboration/raindrop.png";
+import roadmapImg from "../assets/roadmapImg.jpg";
 
 export const navigation = [
   {
@@ -58,41 +59,41 @@ export const logos = [logo, logo, logo, logo, logo];
 
 export const dsServices = ["Generate", "Enhance", "Integrate"];
 
-// export const roadmap = [
-//   {
-//     id: "0",
-//     title: "Recognition",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//     date: "May 2023",
-//     status: "done",
-//     imageUrl: roadmap1,
-//     colorful: true,
-//   },
-//   {
-//     id: "1",
-//     title: "Gamification",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//     date: "May 2023",
-//     status: "progress",
-//     imageUrl: roadmap2,
-//   },
-//   {
-//     id: "2",
-//     title: "Customization",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//     date: "May 2023",
-//     status: "done",
-//     imageUrl: roadmap3,
-//   },
-//   {
-//     id: "3",
-//     title: "Integration",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
-//     date: "May 2023",
-//     status: "progress",
-//     imageUrl: roadmap4,
-//   },
-// ];
+export const roadmap = [
+  {
+    id: "0",
+    title: "Recognition",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+    date: "May 2023",
+    status: "done",
+    imageUrl: roadmapImg,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "Gamification",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+    date: "May 2023",
+    status: "progress",
+    imageUrl: roadmapImg,
+  },
+  {
+    id: "2",
+    title: "Customization",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+    date: "May 2023",
+    status: "done",
+    imageUrl: roadmapImg,
+  },
+  {
+    id: "3",
+    title: "Integration",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.",
+    date: "May 2023",
+    status: "progress",
+    imageUrl: roadmapImg,
+  },
+];
 
 export const collabText =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perspiciatis laborum facere quia mollitia sed dolores modi voluptates dolorem obcaecati.";
