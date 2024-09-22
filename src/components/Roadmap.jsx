@@ -29,30 +29,30 @@ const Roadmap = () => {
                       height={550}
                       alt="Grid"
                     />
-                    <div className="relative z-1">
-                      <div className="mb-8 flex max-w-[27rem] items-center justify-between md:mb-20">
-                        <TagLine>{item.date}</TagLine>
-                        <div className="flex items-center rounded bg-n-1 px-4 py-1 text-n-8">
-                          {item.status === "done" ? (
-                            <FaCheckCircle className="mr-2.5 size-6 text-purple-500" />
-                          ) : (
-                            <AiOutlineLoading3Quarters className="mr-2.5 size-6 text-purple-500" />
-                          )}
-                          <div className="tagline">{status}</div>
-                        </div>
-                        <div className="-mx-15 -my-10 mb-10">
-                          <img
-                            src={item.imageUrl}
-                            className="w-full"
-                            width={630}
-                            height={420}
-                            alt={item.title}
-                          />
-                        </div>
-                        <h4 className="h4 mb-4">{item.title}</h4>
-                        <p className="body-2 text-n-4">{item.text}</p>
+                  </div>
+                  <div className="relative z-1">
+                    <div className="mb-8 flex max-w-[27rem] items-center justify-between md:mb-20">
+                      <TagLine>{item.date}</TagLine>
+                      <div className="flex items-center rounded bg-n-1 px-4 py-1 text-n-8">
+                        {item.status === "done" ? (
+                          <FaCheckCircle className="mr-2.5 size-6 text-purple-500" />
+                        ) : (
+                          <AiOutlineLoading3Quarters className="mr-2.5 size-6 text-purple-500" />
+                        )}
+                        <div className="tagline">{status}</div>
                       </div>
                     </div>
+                    <div className="-mx-15 -my-10 mb-10">
+                      <img
+                        src={item.imageUrl}
+                        className="w-full"
+                        width={630}
+                        height={420}
+                        alt={item.title}
+                      />
+                    </div>
+                    <h4 className="h4 mb-4">{item.title}</h4>
+                    <p className="body-2 text-n-4">{item.text}</p>
                   </div>
                 </div>
               </div>
