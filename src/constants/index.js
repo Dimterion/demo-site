@@ -263,29 +263,25 @@ export const features = [
   },
 ];
 
-// export const socials = [
-//   {
-//     id: "0",
-//     title: "Discord",
-//     iconUrl: discordBlack,
-//     url: "#",
-//   },
-//   {
-//     id: "1",
-//     title: "Twitter",
-//     iconUrl: twitter,
-//     url: "#",
-//   },
-//   {
-//     id: "2",
-//     title: "Instagram",
-//     iconUrl: instagram,
-//     url: "#",
-//   },
-//   {
-//     id: "4",
-//     title: "Facebook",
-//     iconUrl: facebook,
-//     url: "#",
-//   },
-// ];
+export const socials = [
+  {
+    id: "0",
+    title: "Discord",
+    url: "#",
+  },
+  {
+    id: "1",
+    title: "Twitter",
+    url: "#",
+  },
+  {
+    id: "2",
+    title: "Instagram",
+    url: "#",
+  },
+  {
+    id: "4",
+    title: "Facebook",
+    url: "#",
+  },
+];
