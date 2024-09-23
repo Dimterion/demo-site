@@ -1,16 +1,16 @@
 import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
 
+import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
+import { heroIcons } from "../constants";
+import Section from "./Section";
+import Button from "./Button";
+import Generating from "./Generating";
+import Notification from "./Notification";
+import Logos from "./Logos";
 import heroBackground from "../assets/hero/heroBackground.jpg";
 import curve from "../assets/hero/curve.png";
 import robot from "../assets/hero/robot.jpg";
-import Button from "./Button";
-import Section from "./Section";
-import Generating from "./Generating";
-import Notification from "../components/Notification";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import { heroIcons } from "../constants";
-import Logos from "./Logos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);

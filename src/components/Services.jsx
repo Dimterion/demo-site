@@ -3,18 +3,19 @@ import { BiVideoRecording } from "react-icons/bi";
 import { IoDisc } from "react-icons/io5";
 import { FaChromecast } from "react-icons/fa";
 import { FaSlidersH } from "react-icons/fa";
-import Section from "./Section";
-import Heading from "./Heading";
-import Generating from "./Generating";
-import backgroundImage from "../assets/backgroundImg.jpg";
-import { dsServices } from "../constants";
 import { FaCheckCircle } from "react-icons/fa";
+
 import {
   Gradient,
   PhotoChatMessage,
   VideoBar,
   VideoChatMessage,
 } from "./design/Services";
+import { dsServices } from "../constants";
+import Section from "./Section";
+import Heading from "./Heading";
+import Generating from "./Generating";
+import backgroundImage from "../assets/backgroundImg.jpg";
 
 const Services = () => {
   const dsServicesIcons = [

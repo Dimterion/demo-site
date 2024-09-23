@@ -1,6 +1,7 @@
 import { FaCheckCircle } from "react-icons/fa";
-import Button from "./Button";
+
 import { pricing } from "../constants";
+import Button from "./Button";
 
 const PricingList = () => {
   return (

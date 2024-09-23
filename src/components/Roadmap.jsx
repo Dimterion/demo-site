@@ -1,10 +1,11 @@
 import { FaCheckCircle } from "react-icons/fa";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
+
+import { roadmap } from "../constants";
 import Section from "./Section";
 import Heading from "./Heading";
-import { roadmap } from "../constants";
-import grid from "../assets/grid.png";
 import TagLine from "./TagLine";
+import grid from "../assets/grid.png";
 
 const Roadmap = () => {
   return (
