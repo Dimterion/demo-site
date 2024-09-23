@@ -10,6 +10,7 @@
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
   --font-grotesk: "Space Grotesk", sans-serif;
+
   color-scheme: dark;
 }
 
@@ -19,7 +20,7 @@
 
 @layer base {
   body {
-    @apply bg-n-8 text-n-1 font-sans text-base;
+    @apply bg-n-8 font-sans text-base text-n-1;
   }
 }
 

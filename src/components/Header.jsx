@@ -2,11 +2,11 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import headerLogo from "../assets/headerLogo.png";
+import { Menu } from "./design/Header";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
-import { Menu } from "./design/Header";
+import headerLogo from "../assets/headerLogo.png";
 
 const Header = () => {
   const pathname = useLocation();

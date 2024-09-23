@@ -1,4 +1,5 @@
 import { FaPlay } from "react-icons/fa";
+
 import gradient from "../../assets/gradient.png";
 import headerLogo from "../../assets/headerLogo.png";
 import ChatBubble from "../../assets/svg/ChatBubble";

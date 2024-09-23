@@ -1,9 +1,10 @@
 import { FaCheckCircle } from "react-icons/fa";
+
+import { LeftCurve, RightCurve } from "./design/Collaboration";
 import { collabApps, collabContent, collabText } from "../constants";
-import headerLogo from "../assets/headerLogo.png";
 import Section from "./Section";
 import Button from "./Button";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+import headerLogo from "../assets/headerLogo.png";
 
 const Collaboration = () => {
   return (
