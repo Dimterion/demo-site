@@ -1,7 +1,7 @@
 const ButtonSvg = (white) => (
   <>
     <svg
-      className="absolute left-0 top-0"
+      className="absolute left-[0.04rem] top-0"
       width="21"
       height="44"
       viewBox="0 0 21 44"
@@ -42,7 +42,7 @@ const ButtonSvg = (white) => (
       )}
     </svg>
     <svg
-      className="absolute right-0 top-0"
+      className="absolute right-[0.04rem] top-0"
       width="21"
       height="44"
       viewBox="0 0 21 44"
