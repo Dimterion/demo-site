@@ -28,8 +28,8 @@ const Features = () => {
                 <div className="mt-auto flex items-center">
                   <img
                     src={item.iconUrl}
-                    width={48}
-                    height={48}
+                    width={70}
+                    height={70}
                     alt={item.title}
                   />
                   <p className="ml-auto font-code text-xs font-bold uppercase tracking-wide text-n-1">
