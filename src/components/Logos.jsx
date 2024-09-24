@@ -9,7 +9,7 @@ const Logos = ({ className }) => {
       <ul className="flex">
         {logos.map((logo, index) => (
           <li
-            className="flex h-[8.5rem] flex-1 items-center justify-center"
+            className="flex h-[8.5rem] flex-1 items-center justify-center hover:opacity-80"
             key={index}
           >
             <img src={logo} width={134} height={128} alt="Logo" />
