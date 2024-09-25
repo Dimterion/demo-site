@@ -42,7 +42,7 @@ const Hero = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque,
             ipsum?
           </p>
-          <Button href="/pricing" white>
+          <Button href="/pricing" sunglow>
             Get started
           </Button>
         </div>
