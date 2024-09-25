@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
+          1: "#D14009",
           2: "#FFC876",
           3: "#FF776F",
           4: "#7ADB78",
@@ -19,7 +19,7 @@ export default {
           1: "#26242C",
         },
         n: {
-          1: "#FFFFFF",
+          1: "#FFCC33",
           2: "#CAC6DD",
           3: "#ADA8C3",
           4: "#757185",
