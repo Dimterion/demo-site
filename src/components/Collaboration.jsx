@@ -16,7 +16,7 @@ const Collaboration = () => {
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
-                  <FaCheckCircle className="size-6 text-purple-500" />
+                  <FaCheckCircle className="size-6 text-n-5" />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
                 {item.text && (

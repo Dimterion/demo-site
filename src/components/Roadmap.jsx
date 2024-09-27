@@ -36,9 +36,9 @@ const Roadmap = () => {
                       <TagLine>{item.date}</TagLine>
                       <div className="flex items-center rounded bg-n-1 px-4 py-1 text-n-8">
                         {item.status === "done" ? (
-                          <FaCheckCircle className="mr-2.5 size-6 text-purple-500" />
+                          <FaCheckCircle className="mr-2.5 size-6 text-n-5" />
                         ) : (
-                          <AiOutlineLoading3Quarters className="mr-2.5 size-6 text-purple-500" />
+                          <AiOutlineLoading3Quarters className="mr-2.5 size-6 text-n-5" />
                         )}
                         <div className="tagline">{status}</div>
                       </div>

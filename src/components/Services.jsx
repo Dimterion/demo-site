@@ -55,7 +55,7 @@ const Services = () => {
                     key={index}
                     className="flex items-start border-t border-n-6 py-4"
                   >
-                    <FaCheckCircle className="size-6 text-purple-500" />
+                    <FaCheckCircle className="size-6 text-n-5" />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}

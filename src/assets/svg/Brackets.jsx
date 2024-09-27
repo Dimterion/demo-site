@@ -10,8 +10,8 @@ const brackets = (position) =>
       <path d="M5 0.822266H1V12.8223H5" stroke="url(#brackets-left)" />
       <defs>
         <linearGradient id="brackets-left" x1="50%" x2="50%" y1="0%" y2="100%">
-          <stop offset="0%" stopColor="#89F9E8" />
-          <stop offset="100%" stopColor="#FACB7B" />
+          <stop offset="0%" stopColor="#FFCC33" />
+          <stop offset="100%" stopColor="#D14009" />
         </linearGradient>
       </defs>
     </svg>
@@ -35,8 +35,8 @@ const brackets = (position) =>
           y1="0%"
           y2="100%"
         >
-          <stop offset="0%" stopColor="#9099FC" />
-          <stop offset="100%" stopColor="#D87CEE" />
+          <stop offset="0%" stopColor="#D14009" />
+          <stop offset="100%" stopColor="#FFCC33" />
         </linearGradient>
       </defs>
     </svg>

@@ -38,7 +38,7 @@ const PricingList = () => {
                 key={index}
                 className="flex items-start border-t border-n-6 py-5"
               >
-                <FaCheckCircle className="size-6 text-purple-500" />
+                <FaCheckCircle className="size-12 text-n-5" />
                 <p className="body-2 ml-4">{feature}</p>
               </li>
             ))}
