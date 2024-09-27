@@ -35,8 +35,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sora)", ...fontFamily.sans],
-        code: "var(--font-code)",
+        sans: ["var(--font-chakra)", ...fontFamily.sans],
+        orbitron: "var(--font-orbitron)",
         grotesk: "var(--font-grotesk)",
       },
       letterSpacing: {
@@ -116,10 +116,10 @@ export default {
             {},
         },
         ".quote": {
-          "@apply font-code text-lg leading-normal": {},
+          "@apply font-orbitron text-lg leading-normal": {},
         },
         ".button": {
-          "@apply font-code text-sm font-bold uppercase tracking-wider": {},
+          "@apply font-orbitron text-sm font-bold uppercase tracking-wider": {},
         },
       });
       addUtilities({

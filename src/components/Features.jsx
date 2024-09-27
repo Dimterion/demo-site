@@ -32,7 +32,7 @@ const Features = () => {
                     height={70}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold uppercase tracking-wide text-n-1">
+                  <p className="ml-auto font-orbitron text-xs font-bold uppercase tracking-wide text-n-1">
                     Explore more
                   </p>
                   <Arrow />
