@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { Menu } from "./design/Header";
@@ -30,19 +30,19 @@ const Header = () => {
   };
 
   return (
-    <div
+    <header
       className={`fixed left-0 top-0 z-50 w-full border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"}`}
     >
-      <div className="flex items-center px-5 max-lg:py-4 lg:px-7.5 xl:px-10">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
+      <section className="flex items-center px-5 max-lg:py-4 lg:px-7.5 xl:px-9">
+        <Link className="block 2xl:mr-[14rem]">
           <img src={headerLogo} width={50} height={20} alt="Header logo" />
-        </a>
+        </Link>
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
           } fixed bottom-0 left-0 right-0 top-[5rem] bg-n-8 lg:static lg:mx-auto lg:flex lg:bg-transparent`}
         >
-          <div className="relative z-2 m-auto flex flex-col items-center justify-center lg:flex-row">
+          <section className="relative z-2 m-auto flex flex-col items-center justify-center lg:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}
@@ -53,7 +53,7 @@ const Header = () => {
                 {item.title}
               </a>
             ))}
-          </div>
+          </section>
           <Menu />
         </nav>
         <a
@@ -72,8 +72,8 @@ const Header = () => {
         >
           <MenuSvg openNavigation={openNavigation} />
         </Button>
-      </div>
-    </div>
+      </section>
+    </header>
   );
 };
 
