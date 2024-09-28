@@ -34,7 +34,13 @@ const Header = () => {
       className={`fixed left-0 top-0 z-50 w-full border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"}`}
     >
       <section className="flex items-center px-5 max-lg:py-4 lg:px-7.5 xl:px-9">
-        <Link className="block 2xl:mr-[14rem]">
+        <Link
+          to="/"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+          className="block 2xl:mr-[14rem]"
+        >
           <img src={headerLogo} width={50} height={20} alt="Header logo" />
         </Link>
         <nav
@@ -66,7 +72,7 @@ const Header = () => {
           Sign in
         </Button>
         <Button
-          className="ml-auto lg:hidden"
+          className="ml-auto hover:opacity-80 lg:hidden"
           px="px-3"
           onClick={toggleNavigation}
         >
