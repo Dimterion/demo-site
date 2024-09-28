@@ -30,19 +30,19 @@ export const BackgroundCircles = () => {
 
 export const Menu = () => {
   return (
-    <div className="pointer-events-none absolute inset-0 lg:hidden">
-      <div className="absolute inset-0 opacity-[.03]">
+    <section className="pointer-events-none absolute inset-0 lg:hidden">
+      <aside className="absolute inset-0 opacity-[.03]">
         <img
           className="h-full w-full object-cover"
           src={backgroundImg}
           width={688}
           height={953}
-          alt="Background"
+          alt="Mobile menu background"
         />
-      </div>
+      </aside>
       <Rings />
       <SideLines />
       <BackgroundCircles />
-    </div>
+    </section>
   );
 };
