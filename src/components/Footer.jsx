@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <Section crosses className="!px-0 !py-10">
       <div className="container flex items-center justify-center gap-10 max-sm:flex-col sm:justify-between">
-        <p className="caption text-n-4 lg:block">
+        <p className="caption text-n-3 lg:block">
           &#169; {new Date().getFullYear()}. All rights reserved.
         </p>
         <ul className="flex flex-wrap gap-5">

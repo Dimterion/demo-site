@@ -20,7 +20,7 @@ const Collaboration = () => {
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
                 {item.text && (
-                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
+                  <p className="body-2 mt-3 text-n-2">{item.text}</p>
                 )}
               </li>
             ))}
@@ -28,7 +28,7 @@ const Collaboration = () => {
           <Button>Try it now</Button>
         </article>
         <article className="mt-4 lg:ml-auto xl:w-[38rem]">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mx-auto lg:mb-32 lg:w-[22rem]">
+          <p className="body-2 mb-8 text-n-2 md:mb-16 lg:mx-auto lg:mb-32 lg:w-[22rem]">
             {collabText}
           </p>
           <section className="relative left-1/2 flex aspect-square w-[22rem] -translate-x-1/2 scale-75 rounded-full border border-n-6 md:scale-100">
