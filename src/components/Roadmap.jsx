@@ -14,7 +14,7 @@ const Roadmap = () => {
         <Heading tag="Get started" title="Lorem text title" />
         <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
           {roadmap.map((item) => {
-            const status = item.status === "done" ? "Done" : "In progress";
+            const status = item.status === "done" ? "Done" : "Load";
 
             return (
               <div
@@ -32,13 +32,13 @@ const Roadmap = () => {
                     />
                   </div>
                   <div className="relative z-1">
-                    <div className="mb-8 flex max-w-[27rem] items-center justify-between md:mb-20">
+                    <div className="mb-12 flex max-w-[27rem] items-center justify-between md:mb-20">
                       <TagLine>{item.date}</TagLine>
-                      <div className="flex items-center rounded bg-n-1 px-4 py-1 text-n-8">
+                      <div className="flex items-center rounded bg-n-1 px-1 py-1 text-n-8">
                         {item.status === "done" ? (
-                          <FaCheckCircle className="mr-2.5 size-6 text-n-5" />
+                          <FaCheckCircle className="mr-1 size-4 text-n-5" />
                         ) : (
-                          <AiOutlineLoading3Quarters className="mr-2.5 size-6 text-n-5" />
+                          <AiOutlineLoading3Quarters className="mr-1 size-4 text-n-5" />
                         )}
                         <div className="tagline">{status}</div>
                       </div>
