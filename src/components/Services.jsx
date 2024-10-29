@@ -45,7 +45,7 @@ const Services = () => {
               />
             </div>
             <div className="relative z-1 ml-auto max-w-[17rem]">
-              <h4 className="h4 mb-4">Lorem text</h4>
+              <h3 className="h3 mb-4">Lorem text</h3>
               <p className="body-2 mb-[3rem] text-n-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>

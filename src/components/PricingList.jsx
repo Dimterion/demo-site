@@ -11,7 +11,7 @@ const PricingList = () => {
           key={item.id}
           className="h-full w-[19rem] rounded-[2rem] border border-n-6 bg-n-8 px-6 odd:my-4 odd:py-8 even:py-14 max-lg:w-full lg:w-auto [&>h4]:first:text-color-2 [&>h4]:last:text-color-3 [&>h4]:even:text-color-1"
         >
-          <h4 className="h4 mb-4">{item.title}</h4>
+          <h3 className="h3 mb-4">{item.title}</h3>
           <p className="body-2 mb-3 min-h-[4rem] text-n-1/80">
             {item.description}
           </p>

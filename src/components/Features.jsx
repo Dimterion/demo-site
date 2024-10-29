@@ -23,7 +23,7 @@ const Features = () => {
               key={item.id}
             >
               <div className="mih-h-[22rem] pointer-events-none relative z-2 flex flex-col p-[2.4rem]">
-                <h5 className="h5 mb-5">{item.title}</h5>
+                <h2 className="h2 mb-5">{item.title}</h2>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="mt-auto flex items-center">
                   <img

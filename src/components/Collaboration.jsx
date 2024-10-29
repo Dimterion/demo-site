@@ -17,7 +17,7 @@ const Collaboration = () => {
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
                   <FaCheckCircle className="size-6 text-n-5" />
-                  <h6 className="body-2 ml-5">{item.title}</h6>
+                  <h3 className="body-2 ml-5">{item.title}</h3>
                 </div>
                 {item.text && (
                   <p className="body-2 mt-3 text-n-2">{item.text}</p>
